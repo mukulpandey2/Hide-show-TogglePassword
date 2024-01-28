@@ -1,0 +1,31 @@
+body {
+    font-family: cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+label{
+    font-size: 22px;
+    color: #007BFF;
+}
+.container {
+    position: relative;
+  
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.HideShowBtn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #007BFF;
+}
